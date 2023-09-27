@@ -21,7 +21,7 @@ export function handleButtonClick(keyValue) {
 	} else if (keyValue === 'AC') {
 		currentInput = '';
 		currentResult = ''; 
-		output.tagName = '0'; 
+		output.textContent = '0'; 
 	} else {
 		currentInput += keyValue;
 		output.textContent = currentInput;
